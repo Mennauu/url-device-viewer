@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Website frame in all devices</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header class="py-4 bg-color-pink">
+      <div class="container">
+        <div class="row">
+          <div class="col-7 mx-auto text-center">
+            <form method="POST" target="desktop">
+              <label for="enterURL" class="text-white font-weight-bold pt-5 pb-3">Place URL in the field below and click submit to load the site in the devices below</label>
+              <div class="input-group pb-5">
+                <div class="input-group-prepend">
+                  <span class="input-group-text border-0">https://</span>
+                </div>
+                <input type="text" class="form-control border-0" id="enterURL" placeholder="Enter URL">
+                <div class="input-group-append">
+                  <button type="submit" class="btn btn-primary" id="set-url-source">Submit</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="py-5">
+        <div class="container position-relative custom-devices">
+          <div class="desktop">
+            <iframe id="desktop" src="http://new.webgaan.nl" scrolling="no"></iframe>
+          </div>
+          <div class="tablet">
+            <iframe id="tablet" src="http://new.webgaan.nl" scrolling="no"></iframe>
+          </div>
+          <div class="mobile">
+            <iframe id="mobile" src="http://new.webgaan.nl" scrolling="no"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>

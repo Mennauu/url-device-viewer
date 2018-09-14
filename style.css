@@ -1,0 +1,85 @@
+iframe {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  border: 0;
+  transform-origin: top-left;
+  -webkit-transform-origin: top left;
+}
+
+.desktop {
+  position: absolute;
+  width: 566px;
+  height: 420px;
+  background: url('images/desktop.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  overflow: hidden;
+  top: 0;
+  z-index: 1;
+}
+
+.desktop iframe {
+  width: 1600px;
+  height: 924px;
+  transform: scale(0.242);
+  left: 86px;
+  top: 32px;
+}
+
+.tablet {
+  width: 150px;
+  height: 244px;
+  position: absolute;
+  background: url('images/tablet.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  overflow: hidden;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+}
+
+.tablet iframe {
+  width: 768px;
+  height: 1024px;
+  transform: scale(0.175);
+  top: 22.8px;
+  left: 7.7px;
+}
+
+.mobile {
+  width: 80px;
+  height: 165px;
+  position: absolute;
+  background: url('images/mobile.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  overflow: hidden;
+  right: 118px;
+  bottom: 0;
+  z-index: 3;
+}
+
+.mobile iframe {
+  width: 375px;
+  height: 667px;
+  transform: scale(0.182);
+  top: 21px;
+  left: 6px;
+}
+
+.desktop iframe,
+.tablet iframe,
+.mobile iframe {
+  background:url('images/loader2.gif') center center no-repeat;
+}
+
+.bg-color-pink {
+  background: #e9527e;
+}
+
+.custom-devices {
+  width: 534px;
+  height: 400px;
+}
