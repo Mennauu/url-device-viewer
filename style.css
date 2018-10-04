@@ -83,3 +83,13 @@ iframe {
   width: 534px;
   height: 400px;
 }
+
+#warning-message {
+  display: none;
+  animation: fadein 1s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
