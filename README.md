@@ -1,2 +1,8 @@
-# Website Device Viewer
-View websites inside different device frames (iPhone, iPad, iMac)
+# URL device viewer
+View websites inside multiple devices frames, including iPhone, iPad and iMac
+
+![preview](images/preview.png)
+
+## License
+
+See the [LICENSE](license) file for license rights and limitations (MIT).
