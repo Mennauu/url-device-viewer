@@ -4,6 +4,6 @@ document.getElementById('set-url-source').addEventListener("click", event => {
   event.preventDefault()
 
   for(let value of devices) {
-    value.src = 'http://' + document.getElementById("enterURL").value
+    value.src = 'https://' + document.getElementById("enterURL").value
   }
 })
