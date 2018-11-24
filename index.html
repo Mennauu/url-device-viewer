@@ -3,8 +3,8 @@
   <head>
     <title>View websites inside different device frames</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
   <body>
     <header class="py-4 bg-color-pink">
       <div class="container">
@@ -26,25 +26,17 @@
         </div>
       </div>
     </header>
-    <section>
-      <div class="py-5">
-        <div class="container position-relative custom-devices">
-          <div class="desktop">
-            <iframe id="desktop" src="https://menno.work" scrolling="no"></iframe>
-          </div>
-          <div class="tablet">
-            <iframe id="tablet" src="https://menno.work" scrolling="no"></iframe>
-          </div>
-          <div class="mobile">
-            <iframe id="mobile" src="https://menno.work" scrolling="no"></iframe>
-          </div>
+    <section class="py-5">
+      <div class="device-container position-relative mx-auto">
+        <div class="desktop">
+          <iframe id="desktop" src="https://menno.work" scrolling="no"></iframe>
         </div>
-      </div>
-      <div class="text-center">
-        <button id="save" class="btn btn-warning">Save as image</button>
-      </div>
-      <div id="warning-message" class="text-danger text-center pt-5">
-        <p>Because of security reasons it's currently impossible to save the preview as an image.<br> However, you can make a screenshot yourself on your device.</p>
+        <div class="tablet">
+          <iframe id="tablet" src="https://menno.work" scrolling="no"></iframe>
+        </div>
+        <div class="mobile">
+          <iframe id="mobile" src="https://menno.work" scrolling="no"></iframe>
+        </div>
       </div>
     </section>
     <script type="text/javascript" src="js/main.js"></script>

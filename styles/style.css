@@ -1,3 +1,9 @@
+.device-container {
+  /* background: url('../images/bg-pattern.png'); */
+  height: 420px;
+  width: 500px;
+}
+
 iframe {
   margin: 0;
   padding: 0;
@@ -11,11 +17,12 @@ iframe {
   position: absolute;
   width: 566px;
   height: 420px;
-  background: url('images/desktop.png');
+  background: url('../images/desktop.png');
   background-repeat: no-repeat;
   background-size: 100%;
   overflow: hidden;
   top: 0;
+  right: -20px;
   z-index: 1;
 }
 
@@ -31,12 +38,12 @@ iframe {
   width: 150px;
   height: 244px;
   position: absolute;
-  background: url('images/tablet.png');
+  background: url('../images/tablet.png');
   background-repeat: no-repeat;
   background-size: 100%;
   overflow: hidden;
-  right: 0;
-  bottom: 0;
+  right: 30px;
+  bottom: 20px;
   z-index: 2;
 }
 
@@ -52,12 +59,12 @@ iframe {
   width: 80px;
   height: 165px;
   position: absolute;
-  background: url('images/mobile.png');
+  background: url('../images/mobile.png');
   background-repeat: no-repeat;
   background-size: 100%;
   overflow: hidden;
-  right: 118px;
-  bottom: 0;
+  right: 148px;
+  bottom: 20px;
   z-index: 3;
 }
 
@@ -72,24 +79,7 @@ iframe {
 .desktop iframe,
 .tablet iframe,
 .mobile iframe {
-  background:url('images/loader2.gif') center center no-repeat;
+  background:url('../images/loader2.gif') center center no-repeat
 }
 
-.bg-color-pink {
-  background: #e9527e;
-}
-
-.custom-devices {
-  width: 534px;
-  height: 400px;
-}
-
-#warning-message {
-  display: none;
-  animation: fadein 1s;
-}
-
-@keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
+.bg-color-pink {background: #e9527e}
