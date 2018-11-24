@@ -5,4 +5,4 @@ View websites inside multiple devices frames, including iPhone, iPad and iMac
 
 ## License
 
-See the [LICENSE](license) file for license rights and limitations (MIT).
+See the LICENSE file for license rights and limitations (MIT).
