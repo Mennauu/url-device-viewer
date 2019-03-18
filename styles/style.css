@@ -79,7 +79,7 @@ iframe {
 .desktop iframe,
 .tablet iframe,
 .mobile iframe {
-  background:url('../images/loader2.gif') center center no-repeat
+  background:url('../images/loader.gif') center center no-repeat
 }
 
 .bg-color-pink {background: #e9527e}
